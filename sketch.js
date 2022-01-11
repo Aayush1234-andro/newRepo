@@ -14,7 +14,7 @@ function preload(){
 
 function setup(){
     var canvas = createCanvas(1940,900);
-    //background(bgImage);
+    background(bgImage);
     soilder = createSprite(20,200, 50, 50);
     soilder.addImage(sfImg)
     soilder.scale = 0.3
@@ -23,5 +23,5 @@ function setup(){
 }
 
 function draw(){
-    
+    drawSprites();
 }
